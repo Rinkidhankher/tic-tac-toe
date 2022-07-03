@@ -1,0 +1,39 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(to right, yellow, orange);
+}
+
+.gameName {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: normal;
+    text-align: center;
+}
+
+.mainDiv {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    background-color: blue;
+    height: 500px;
+    width: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 20px;
+    box-shadow: 4px -4px 18px 5px grey;
+}
+
+.box {
+    border: 2px solid black;
+    font-size: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: bisque;
+    font-family: 'Merienda One', cursive;
+}
